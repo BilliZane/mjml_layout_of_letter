@@ -1,0 +1,204 @@
+<mjml>
+  <mj-head>
+    <mj-title>Apple letter</mj-title>
+    <mj-preview> Apple letter </mj-preview>
+    <mj-style> 
+      h1 {
+        all: inherit; 
+      } 
+      @media(max-width: 400px) {
+        .title {
+          padding: 34px 15px !important;
+        }
+        h1 {
+          font-size: 36px;
+          line-height: 42px;
+        }
+      }
+
+      .up {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+      }
+      .value {
+        color: #FFFFFF;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 10px;
+      }
+      .advantages {
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+      }
+
+      .link-footer {
+        text-decoration: none;
+        color: #51ACFF;
+        font-size: 10px;
+        line-height: 12px;
+      }
+
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px" background-color="#141415">
+    <mj-section full-width="full-width" background-color="#313131" padding="0">
+      <mj-column width="100%">
+        <mj-image
+          src="https://billizane.github.io/mjml_layout_of_letter/header-logo.png"
+          alt="Apple"
+          width="24px"
+          padding="24px"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-wrapper full-width="full-width" background-color="#141415">
+      <mj-section
+        full-width="full-width"
+        background-color="#141415"
+        padding="0"
+      >
+        <mj-column>
+          <mj-text
+            align="center"
+            color="#ffffff"
+            font-size="40px"
+            font-weight="bold"
+            font-family="Verdana"
+            line-height="49px"
+            padding="55px 15px"
+            css-class="title"
+          >
+            Our most stunning take <br />on post-production.
+          </mj-text>
+          <mj-button
+            href="#"
+            css-class="link"
+            font-family="Verdana"
+            font-size="15px"
+            font-weight="bold"
+            background-color="transparent"
+            color="#51ACFF"
+            line-height="18px"
+            >Buy now
+            <img
+              src="https://billizane.github.io/mjml_layout_of_letter/arrow-right.png"
+              alt="Link"
+              width="12px"
+              align="center"
+            />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section
+        full-width="full-width"
+        background-color="#141415"
+        padding="0"
+      >
+        <mj-column>
+          <mj-image
+            src="https://billizane.github.io/mjml_layout_of_letter/mac.png"
+            alt="mac"
+            width="549px"
+            padding="20px 0 0 0"
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section
+        full-width="full-width"
+        background-color="#141415"
+      >
+        <mj-column >
+          <mj-text align="center">
+            <div class="up">up to</div>
+            <div class="value">3.2x</div>
+            <div class="advantages">faster render</div>
+          </mj-text>
+          <mj-image src="https://billizane.github.io/mjml_layout_of_letter/line.png" alt="line" align="center" width="110px" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="center">
+            <div class="up">up to</div>
+            <div class="value">8+</div>
+            <div class="advantages">streams of 4k video</div>
+          </mj-text>
+          <mj-image src="https://billizane.github.io/mjml_layout_of_letter/line.png" alt="line" align="center"width="110px" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="center">
+            <div class="up">up to</div>
+            <div class="value">2x</div>
+            <div class="advantages">faster runing time</div>
+          </mj-text>
+          <mj-image src="https://billizane.github.io/mjml_layout_of_letter/line.png" alt="line" align="center" width="110px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+     <mj-section
+        padding="34px 0"
+        background-color="#313131"
+        full-width="full-width"
+      >
+        <mj-group>
+          <mj-column>
+            <mj-button href="https://facebook.com" padding="0" background-color="transparent" align="right">
+              <img src="https://billizane.github.io/mjml_layout_of_letter/fb.png" alt="Facebook" width="20px" />
+            </mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-button href="https://twitter.com" padding="0"  background-color="transparent">
+              <img src="https://billizane.github.io/mjml_layout_of_letter/tw.png" alt="Twitter" width="20px" />
+            </mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-button href="https://instagram.com" padding="0" background-color="transparent" align="left">
+              <img src="https://billizane.github.io/mjml_layout_of_letter/insta.png" alt="Instagram" width="20px" />
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+       <mj-section
+        background-color="#313131"
+        full-width="full-width"
+        padding="0 0 36px 0"
+      >
+      <mj-column>
+        <mj-text 
+          align="center"
+          padding="0 15px"
+          font-family="Verdana"
+          font-size="10px"
+          font-weight="400"
+          color="#7D7D7D"
+          line-height="18px"
+          >
+          All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+        </mj-text>
+        <mj-text
+          align="center"
+          padding="0 15px"
+          font-family="Verdana"
+          font-size="10px"
+          font-weight="400"
+          color="#7D7D7D"
+          line-height="18px"
+          >
+          This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a href="https://google.com" class="link-footer" target="_blank">here</a>
+        </mj-text>
+      </mj-column>
+      </mj-section>
+  </mj-body>
+</mjml>

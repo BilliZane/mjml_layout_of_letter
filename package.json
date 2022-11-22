@@ -1,0 +1,23 @@
+{
+  "name": "mjml_layout_of_letter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deleteGhPagesLocal": "git branch -D gh-pages",
+    "deleteGhPagesRemote": "git push origin --delete gh-pages",
+    "setBranch": "git checkout -b gh-pages",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilliZane/mjml_layout_of_letter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilliZane/mjml_layout_of_letter/issues"
+  },
+  "homepage": "https://github.com/BilliZane/mjml_layout_of_letter#readme"
+}
