@@ -1,4 +1,4 @@
-## THE TOTAL COMBAT LOSES OF THE ENEMY ##
+##Some letter from apple ##
 
 ### Description ###
 
@@ -6,7 +6,7 @@ A small letter template written using the MJML framework. Good flexibility in em
 
 #### Technology Stack: ####
 
-* [MJML framework] (https://mjml.io)
+* [MJML framework](https://mjml.io)
 * HTML
 * CSS.
 
